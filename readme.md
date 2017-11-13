@@ -9,27 +9,49 @@
     8  ping www.wp.pl
     9  mkdir tekst.txt
    10 komenda **gib clone** kopjuje z zdresu [*https://github.com/gborowikwspol/first_repo/commit/33139e259df17a8320717d16734c019f7d91b557*] repetytorium
+
    11  git clone https://github.com/gborowikwspol/first_repo/commit/33139e259df17a8320717d16734c019f7d91b557
+
    12  git https://github.com/gborowikwspol/first_repo.git
+
    13  git clone https://github.com/gborowikwspol/first_repo.git
+
    14  ls
+
    15 komenda **nano** tworzy i edytuje plik *first_repo* \n
+
    16 komenda **git add .** zapisuje zmiany \n
+
    17 komenda **git status** wyświetla statu postęp prac \n
+
    18 komenda **ls** wyświetla zawartośc katalogu \n
+
    19  ls 
+
    20  ls -la
+
    21  git log
+
    22  cd first_repo
+
    23  ls =la
+
    24  ls -la
+
    25  pwd
+
    26  git commit -m "pliki"
+
    27  git config --globalunser.email "rostek77@o2.pl"
+
    28  git config --global user.email "you@example.com"
+
    29  git config --global user.email "rostek77@o2.pl"
+
    30  git config --global user.name "rostek77"
+
    31  git commit -m "pliki"
+
    32  git status
    33  ls -la
    34  nano tekst.txt
