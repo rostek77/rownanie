@@ -102,7 +102,7 @@
 
    49  nano program.c
 
-   50  Polecenir **gcc program.c -o program.o"" konwertuje program uruchmia go
+   50  Polecenie **gcc program.c -o program.o** konwertuje program uruchmia go
 
    51  Polecenie **-/program.o** uruchamia program
 
