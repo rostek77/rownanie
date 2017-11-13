@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
  
-int main()
+float main()
 {
 float a,b,c,delta;
 printf("podaj wspolczynnik a: ");
@@ -22,8 +22,10 @@ else
         if
                 (delta>0)
                 {
-                printf("pierwsze rozwiazanie x: %2f\n",(-b-sqrt(delta))/(2*a));
-                printf("drugie rozwiazanie x: %2f\n",(-b+sqrt(delta))/(2*a));
+                printf("pierwsze rozwiazanie x:%f\n");
+		(-b-(float)sqrt(delta))/(2*a);
+                printf("drugie rozwiazanie x:%f\n");
+		(-b+(float)sqrt(delta))/(2*a);
                 }
         else
         {
@@ -31,7 +33,7 @@ else
                 if
                         (delta == 0)
                         {
-                        printf("jedno rozwiazanie x: %2f\n",-b/(2*a));
+                        printf("jedno rozwiazanie x:%f\n",-b/(2*a));
                         }
                 else
                         {
