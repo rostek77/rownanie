@@ -56,7 +56,7 @@
 
    27 **git config --globalunser.email "rostek77@o2.pl"**
 
-   28 ** git config --global user.email "you@example.com"**
+   28 **git config --global user.email "you@example.com"**
 
    29 **git config --global user.email "rostek77@o2.pl"**
 
