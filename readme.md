@@ -1,4 +1,4 @@
-  # Historia dziaań
+  # Historia działań
     1  git
     2  sudo apt install git
     3  ls
@@ -8,15 +8,15 @@
     7  ping wp.pl
     8  ping www.wp.pl
     9  mkdir tekst.txt
-   10 komenda **gib clone** kopjuje z zdresu *https://github.com/gborowikwspol/first_repo/commit/33139e259df17a8320717d16734c019f7d91b557* repetytorium
+   10 komenda **gib clone** kopjuje z zdresu [*https://github.com/gborowikwspol/first_repo/commit/33139e259df17a8320717d16734c019f7d91b557*] repetytorium
    11  git clone https://github.com/gborowikwspol/first_repo/commit/33139e259df17a8320717d16734c019f7d91b557
    12  git https://github.com/gborowikwspol/first_repo.git
    13  git clone https://github.com/gborowikwspol/first_repo.git
    14  ls
-   15  nano first_repo
-   16  git add .
-   17  git status
-   18  ls
+   15 komenda **nano** tworzy i edytuje plik *first_repo* \n
+   16 komenda **git add .** zapisuje zmiany \n
+   17 komenda **git status** wyświetla statu postęp prac \n
+   18 komenda **ls** wyświetla zawartośc katalogu \n
    19  ls 
    20  ls -la
    21  git log
