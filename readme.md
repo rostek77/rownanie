@@ -1,13 +1,14 @@
+  # Historia dziaań
     1  git
     2  sudo apt install git
     3  ls
-    4  cd Pulpit
-    5  mkdir plik
+    4  komenda **cd** Pulpit
+    5  komenda **mkdir** "tworzy" **plik**
     6  cd plik
     7  ping wp.pl
     8  ping www.wp.pl
     9  mkdir tekst.txt
-   10  gib clone https://github.com/gborowikwspol/first_repo/commit/33139e259df17a8320717d16734c019f7d91b557
+   10 komenda **gib clone** kopjuje z zdresu *https://github.com/gborowikwspol/first_repo/commit/33139e259df17a8320717d16734c019f7d91b557* repetytorium
    11  git clone https://github.com/gborowikwspol/first_repo/commit/33139e259df17a8320717d16734c019f7d91b557
    12  git https://github.com/gborowikwspol/first_repo.git
    13  git clone https://github.com/gborowikwspol/first_repo.git
