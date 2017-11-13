@@ -8,7 +8,7 @@
     7  ping wp.pl
     8  ping www.wp.pl
     9  mkdir tekst.txt
-   10 komenda **gib clone** kopjuje z zdresu [*https://github.com/gborowikwspol/first_repo/commit/33139e259df17a8320717d16734c019f7d91b557*] repetytorium
+   10 komenda **gib clone** kopiuje z zdresu [*https://github.com/gborowikwspol/first_repo/commit/33139e259df17a8320717d16734c019f7d91b557*] repetytorium
 
    11  git clone https://github.com/gborowikwspol/first_repo/commit/33139e259df17a8320717d16734c019f7d91b557
 
@@ -16,15 +16,15 @@
 
    13  git clone https://github.com/gborowikwspol/first_repo.git
 
-   14  ls
+   14  komenda **ls** wyswietla zawartośc pliku
 
-   15 komenda **nano** tworzy i edytuje plik *first_repo* \n
+   15 komenda **nano** tworzy i edytuje plik *first_repo* 
 
-   16 komenda **git add .** zapisuje zmiany \n
+   16 komenda **git add .** zapisuje zmiany 
 
-   17 komenda **git status** wyświetla statu postęp prac \n
+   17 komenda **git status** wyświetla statu postęp prac 
 
-   18 komenda **ls** wyświetla zawartośc katalogu \n
+   18 komenda **ls** wyświetla zawartośc katalogu 
 
    19  ls 
 
@@ -38,50 +38,84 @@
 
    24  ls -la
 
-   25  pwd
+   25 komenda ** pwd** wypisuje scieżkę obecnego katalogu
 
    26  git commit -m "pliki"
 
-   27  git config --globalunser.email "rostek77@o2.pl"
+>konfiguracja z kontem github
+
+   27 ** git config --globalunser.email "rostek77@o2.pl"
 
    28  git config --global user.email "you@example.com"
 
    29  git config --global user.email "rostek77@o2.pl"
 
-   30  git config --global user.name "rostek77"
+   30  git config --global user.name "rostek77"**
 
    31  git commit -m "pliki"
 
+   
    32  git status
+
+   
    33  ls -la
+  
    34  nano tekst.txt
+
    35  ls -la
-   36  git log
+
+   36 komenda ** git log** wyświetla logi
+
    37  git add .
+
    38  git commit "takie_tam"
+
    39  git commit -m "takie_tam"
+
    40  git push
+
    41  git status
+
    42  ls -la
+
    43  git clone https://github.com/gborowikwspol/first_repo.git
+
    44  ls
+
    45  git add .
+
    46  git push
+
    47  git clone https://github.com/gborowikwspol/program.git
+
    48  ls
+
    49  nano program.c
+
    50  gcc program.c -o program.o
+
    51  -/program.o
+
    52  sudo apt install gcc
+
    53  gcc program.c -o program.o
+
    54  -/program.o
+
    55  -/program.c
+
    56  -\program.o
+
    57  git log
+
    58  cd Pulpit
+
    59  mkdir kalk
+
    60  cd kalk
+
    61  nano kalk.c
+
    62  git add .
    63  git commit -m "kalk"
    64  git status
