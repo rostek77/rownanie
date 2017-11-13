@@ -1,13 +1,23 @@
   # Historia działań
+
     1  git
+
     2  sudo apt install git
+
     3  ls
+
     4  komenda **cd** Pulpit
+
     5  komenda **mkdir** "tworzy" **plik**
+
     6  cd plik
+
     7  ping wp.pl
+
     8  ping www.wp.pl
+
     9  mkdir tekst.txt
+
    10 komenda **gib clone** kopiuje z zdresu [*https://github.com/gborowikwspol/first_repo/commit/33139e259df17a8320717d16734c019f7d91b557*] repetytorium
 
    11  git clone https://github.com/gborowikwspol/first_repo/commit/33139e259df17a8320717d16734c019f7d91b557
@@ -38,13 +48,13 @@
 
    24  ls -la
 
-   25 komenda ** pwd** wypisuje scieżkę obecnego katalogu
+   25 komenda **pwd** wypisuje scieżkę obecnego katalogu
 
    26  git commit -m "pliki"
 
 >konfiguracja z kontem github
 
-   27 ** git config --globalunser.email "rostek77@o2.pl"
+   27 **git config --globalunser.email "rostek77@o2.pl"
 
    28  git config --global user.email "you@example.com"
 
