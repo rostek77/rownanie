@@ -54,13 +54,13 @@
 
 >konfiguracja z kontem github
 
-   27 **git config --globalunser.email "rostek77@o2.pl"
+   27 **git config --globalunser.email "rostek77@o2.pl"**
 
-   28  git config --global user.email "you@example.com"
+   28 ** git config --global user.email "you@example.com"**
 
-   29  git config --global user.email "rostek77@o2.pl"
+   29 **git config --global user.email "rostek77@o2.pl"**
 
-   30  git config --global user.name "rostek77"**
+   30  **git config --global user.name "rostek77"**
 
    31  git commit -m "pliki"
 
@@ -74,7 +74,7 @@
 
    35  ls -la
 
-   36 komenda ** git log** wyświetla logi
+   36 komenda **git log** wyświetla logi
 
    37  git add .
 
@@ -102,9 +102,9 @@
 
    49  nano program.c
 
-   50  gcc program.c -o program.o
+   50  Polecenir **gcc program.c -o program.o"" konwertuje program uruchmia go
 
-   51  -/program.o
+   51  Polecenie **-/program.o** uruchamia program
 
    52  sudo apt install gcc
 
@@ -185,7 +185,7 @@
   118  git push
   119  tout .gitignore
   120  toush .gitignore
-  121  touch .gitignore
+  121  komenda **touch** tworzy plik **.gitignore**
   122  nano .gitignore
   123  git status
   124  git add .
